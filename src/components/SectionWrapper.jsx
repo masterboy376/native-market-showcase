@@ -9,7 +9,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
     <div className={`${styles.section} 
       ${reverse ? styles.bgWhite : styles.bgPrimary} 
       ${banner}`}>
-      <div className={`flex items-center 
+      <div className={`flex sm:flex-row flex-col items-center 
         ${reverse ? styles.boxReverseClass : styles.boxClass} 
         w-11/12 sm:w-full minmd:w-3/4`}>
         <div className={`${styles.descDiv} 
@@ -25,7 +25,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           {showBtn && (
             <Button 
               assetUrl={assets.expo}
-              link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
+              link="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40masterboy376/native-market-d1c48447f851477ea23c1c22b2ceecc1-signed.apk"
             />
           )}
         </div>

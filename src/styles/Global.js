@@ -12,27 +12,27 @@ const styles = {
   textRight: "text-right",
 
   h1Text:
-    "font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
+    "font-bold font-IBMPlex text-2xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
   pText:
     "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
   descriptionText:
-    "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
-  btnText: "text-white font-IBMPlex minmd:text-lg",
+    "my-5 md:my-10 font-IBMPlex font-light text-lg font-semibold md:leading-16",
+  btnText: "text-white font-IBMPlex md:text-lg",
 
   btnPrimary:
-    "bg-primary mt-4 py-4 px-6 text-white text-lg minmd:text-2xl font-IBMPlex font-medium rounded-lg hover:shadow-2xl",
+    "bg-blue-600 mt-4 py-4 px-6 text-white text-lg md:text-2xl font-medium rounded-lg hover:shadow-2xl",
   btnBlack:
     "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
 
   section: "flex justify-center items-center p-16 sm:p-8",
   subSection: "flex items-center w-full minmd:w-3/4",
-  descDiv: "flex-1 w-full flex justify-start flex-col md:mb-10 ",
+  descDiv: "flex-1 w-full flex justify-start flex-col mb-10 ",
 
   flexCenter: "flex justify-center items-center",
   flexWrap: "flex justify-center flex-wrap",
 
   fullImg: "w-full h-full object-cover",
-  sectionImg: "w-1/2 h-1/2 object-contain",
+  sectionImg: "h-1/2 max-h-96 object-contain",
   btnIcon: "w-5 h-5 minmd:w-10 minmd:h-10 object-contain",
 
   featureImg: "w-20 h-20 minlg:w-40 minlg:h-40 object-contain mb-1",
